@@ -1,0 +1,29 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.header{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	padding-top:10px;
+}
+.top_border{
+	border:2px solid hsl( 27 , 89% , 48% );	
+}
+	
+.logo img{
+	object-fit: contain;
+	height: 30px;
+	padding-left:50px;
+}
+.text_section{
+	display:flex;
+	padding-left:25px;
+	font-size:13px;
+	color:#636B74;
+}
+.text_section p{
+	padding-right:25px;	
+}
