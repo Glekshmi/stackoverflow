@@ -1,0 +1,197 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	cursor: pointer;
+	border-top:3px solid hsl( 27 , 89% , 48% );
+position:fixed;
+background-color:white;	
+border-bottom:0.2px solid hsl(210,8%,68%);
+	
+}	
+.logo{
+	margin-left:50px;
+}
+.logo img{
+	height: 30px;
+	cursor:pointer;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.logo:hover{
+	background-color:whitesmoke;
+}
+.text_section{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	font-size:13px;
+	color:#636B74;
+	gap:5px;
+}
+.text_section p{
+	cursor:pointer;
+	padding:6px 12px;
+}
+.txt:hover{
+	border-radius:20px;
+	background-color:#D3D3D3;
+}
+
+.search_box{
+	display:flex;
+	align-items: center;
+	border-radius:5px;
+	border:1px solid hsl(210,8%,68%);
+	flex:0.99;
+	cursor:auto;
+}
+form{
+	display:flex;
+	align-items:center;
+	padding:3px;
+}
+.search_box .input_box{
+	width: 700px;
+	border:none;
+	outline:none;
+}
+.header .link_section{
+	//padding-left:10px;
+	padding-right:50px;
+}
+.link_section .login{
+	padding:8px;
+	border:1px solid #1B75D0;
+	border-radius:5px;
+	background:transparent;
+	color:#1B75D0;
+	cursor:pointer;
+}
+.link_section .signup{
+	padding:8px;
+	border:1px solid #1B75D0;
+	border-radius:5px;
+	background:#1B75D0;
+	color:white;
+	cursor:pointer;
+}
+.login:hover{
+	background-color:hsl(210,80%,96%);
+}
+.signup:hover{
+	background-color:hsl(206,98.5%,29%);
+}
+
+.body_section{
+	padding-top:58px;
+	display:flex;
+}
+.sidebar_left{
+	padding-top:10px;
+	padding-left:50px;	
+  	max-height: 545px;
+  	overflow-y: auto;
+}
+.first_half{
+	//padding-top:20px;
+}
+.home,.query,.tag{
+	display:flex;
+	align-items:center;
+	padding-bottom:15px;
+}
+.home,.query,.tag p{
+	font-size:13px;
+	color:#636B74;
+	
+}
+.users,.company{
+	display:flex;
+	align-items:center;
+	padding-bottom:12px;
+}
+.users{
+	color:black;
+	font-weight:bold;
+	padding-top:25px;
+}
+.users,.company p{
+	font-size:14px;
+}
+.company p{
+	font-size:13px;
+	color:#636B74;
+}
+.collectives,.explore{
+	display:flex;
+	align-items:center;
+	padding-bottom:12px;
+}
+.collectives p{
+	color:#OCODOE;
+	font-size:11px;
+	font-weight:bold;
+	padding-right:60px;	
+}
+.collectives{
+	padding-top:25px;
+}
+.explore p{
+	font-size:13px;
+	color:#636B74;
+}
+.labs,.discuss{
+	display:flex;
+	align-items:center;
+	padding-bottom:12px;
+}
+.labs p{
+	font-size:11px;
+	font-weight:750;				;
+	color:#0C0D0E;
+	padding-right:105px;
+}
+.labs{
+	padding-top:25px;
+}
+.discuss{
+	font-size:13px;
+	color:#636B74;
+}
+.home svg{
+	padding-right:6px;
+}
+.tag svg{
+	padding-right:6px;
+}
+.query svg{
+	padding-right:6px;
+}
+.users svg{
+	padding-right:6px;
+}
+.company svg{
+	padding-right:6px;
+}
+.explore svg{
+	padding-right:6px;
+}
+.discuss svg{
+	padding-right:6px;
+}
+.fifth_half{
+	padding-top:20px;
+}
+.fifth_half p{
+ 	padding-left:10px;
+	font-size:11px;
+	font-weight:775;				;
+	color:#0C0D0E;
+}	
